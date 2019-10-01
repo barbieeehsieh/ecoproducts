@@ -21,9 +21,6 @@
   text-decoration-color: grey;
   color: white;
   text-decoration: none;
-  display: flex;
-  float: left;
-  padding-left: 10px;
 }
 
 .snowflake {
