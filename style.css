@@ -9,9 +9,11 @@
   padding: 0;
   justify-content: center;
   background-color: black;
-  font-size:250%;
+  font-size:120%;
 }
-
+.bodylotion{
+  background-color:black;
+}
 .list {
   border: 1px;
   flex-direction: row;
@@ -23,11 +25,18 @@
   text-decoration: none;
 }
 
+a{
+  text-decoration: none;
+}
+
 .snowflake {
   color: #fff;
   font-size: 2em;
-  font-family: Arial;
   text-shadow: 0 0 1px #000;
+}
+
+.menu{
+  font-family: 'Permanent Marker', cursive;
 }
 
 /* Snowflake animation */
