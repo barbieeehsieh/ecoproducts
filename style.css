@@ -153,3 +153,8 @@ a{
   animation-delay:3s,1.5s
 }
 /* End of Snowflake animation */
+
+/* bathbomb */
+.bathbomb {
+  background-color: black;
+}
