@@ -186,6 +186,11 @@ div#slider figure {
 }
 /* End of Slideshow */
 
+.intro {
+  width: 1000px;
+  height: 600px;
+}
+
 /* bathbomb */
 .bathbomb {
   background-color: black;
