@@ -155,7 +155,7 @@ a{
 .snowflake:nth-of-type(9){
   left:90%;
   -webkit-animation-delay:3s,1.5s;
-  animation-delay:3s,1.5s
+  animation-delay:3s,1.5
 }
 /* End of Snowflake animation */
 
@@ -185,5 +185,10 @@ div#slider figure {
   animation: 17s slidy infinite;
 }
 /* End of Slideshow */
+
+.intro {
+  width: 1000px;
+  height: 600px;
+}
 
 /* bathbomb */
