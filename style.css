@@ -155,7 +155,7 @@ a{
 .snowflake:nth-of-type(9){
   left:90%;
   -webkit-animation-delay:3s,1.5s;
-  animation-delay:3s,1.5s
+  animation-delay:3s,1.5
 }
 /* End of Snowflake animation */
 
