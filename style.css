@@ -200,14 +200,58 @@ div#slider figure {
 .clickboard{
   padding-top: 20px;
   display:flex;
-  width: 1000px;
-  height:400px;
+  width:100%;
+
   flex-direction: row;
   position: absolute;
   display: flex;
   align-items: center;
-  padding-left: 20px;
+  border: 1px solid red;
+}
+.clickboard img:hover{
+opacity:0.8;
+}
 
+/*clickboard items*/
+.boxes1{
+  display: flex;
+  background-image: url("enjour/bathbomb.jpg");
+}
 
+.boxes1 a {
+  padding: 180px;
+}
+
+.boxes1 p {
+  border: 1px solid blue;
+  padding: 20px;
+}
+
+.boxes2{
+  display: flex;
+  background-image: url("enjour/bodylotion.jpg");
+}
+
+.boxes2 a {
+  padding:180px;
+}
+
+.boxes2 p {
+  border: 1px solid blue;
+  padding: 20px;
+}
+
+.boxes3{
+  display: flex;
+  background-image: url("enjour/facemask.jpg");
+}
+
+.boxes3 a {
+  padding:180px;
+}
+
+.boxes3 p {
+  border: 1px solid blue;
+  padding: 20px;
 }
 /* bathbomb */
