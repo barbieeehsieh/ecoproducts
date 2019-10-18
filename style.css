@@ -169,7 +169,7 @@ a{
 70% { left: -200%; }
 75% { left: -300%; }
 95% { left: -300%; }
-100% { right: 300%; }
+100% { left: -400%; }
 }
 
 body { margin: 0; }
@@ -216,12 +216,10 @@ opacity:0.8;
 .boxes1{
   display: flex;
   background-image: url("enjour/bathbomb.jpg");
-  background-size: cover;
-
 }
 
 .boxes1 a {
-  padding: 140px;
+  padding: 180px;
 }
 
 .boxes1 p {
@@ -232,11 +230,10 @@ opacity:0.8;
 .boxes2{
   display: flex;
   background-image: url("enjour/bodylotion.jpg");
-  background-size: cover;
 }
 
 .boxes2 a {
-  padding:140px;
+  padding:180px;
 }
 
 .boxes2 p {
@@ -247,11 +244,10 @@ opacity:0.8;
 .boxes3{
   display: flex;
   background-image: url("enjour/facemask.jpg");
-  background-size: cover;
 }
 
 .boxes3 a {
-  padding:140px;
+  padding:180px;
 }
 
 .boxes3 p {
@@ -259,7 +255,12 @@ opacity:0.8;
   padding: 20px;
 }
 
+
 /* bathbomb */
+.container{
+  data-scrollable="true";
+}
+
 .container-item{
    width: 1439px;
    height: 600px;
@@ -274,4 +275,8 @@ opacity:0.8;
   font-family: 'Permanent Marker', cursive;
   font-size: 400%;
   color: black;
+}
+
+.container2{
+  margin-left: 50px;
 }
