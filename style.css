@@ -190,5 +190,24 @@ div#slider figure {
   width: 850px;
   height: 600px;
 }
+/*clickboard*/
+.photo{
+  width:400px;
+  height:400px;
+  padding:10px;
+  align-items: center;
+}
+.clickboard{
+  padding-top: 20px;
+  display:flex;
+  width: 1000px;
+  height:400px;
+  flex-direction: row;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
 
+
+}
 /* bathbomb */
