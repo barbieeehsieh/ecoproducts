@@ -254,3 +254,21 @@ opacity:0.8;
   border: 1px solid blue;
   padding: 20px;
 }
+
+
+/* bathbomb */
+.container-item{
+   width: 1280px;
+   height: 500px;
+   opacity: 0.75;
+}
+
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Permanent Marker', cursive;
+  font-size: 300%;
+  color: black;
+}
