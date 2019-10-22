@@ -215,9 +215,10 @@ opacity:0.8;
 /*clickboard items*/
 .boxes1{
   display: flex;
-  background-image: url("enjour/bathbomb2.jpg");
+  background-image: url("enjour/circle1.png");
   background-size: cover;
 }
+
 .boxes2{
   display: flex;
   background-image: url("enjour/bodylotion.jpg");
@@ -263,7 +264,7 @@ opacity:0.8;
 }
 
 .boxes1 a {
-  padding: 145px;
+  padding: 30px;
 }
 .boxes2 a {
   padding:145px;
