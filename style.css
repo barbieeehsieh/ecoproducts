@@ -215,46 +215,63 @@ opacity:0.8;
 /*clickboard items*/
 .boxes1{
   display: flex;
-  background-image: url("enjour/bathbomb.jpg");
-}
-
-.boxes1 a {
-  padding: 180px;
-}
-
-.boxes1 p {
-  border: 1px solid blue;
-  padding: 20px;
+  background-image: url("enjour/circle1.png");
+  background-size: cover;
 }
 
 .boxes2{
   display: flex;
   background-image: url("enjour/bodylotion.jpg");
+  background-size: cover;
 }
-
-.boxes2 a {
-  padding:180px;
-}
-
-.boxes2 p {
-  border: 1px solid blue;
-  padding: 20px;
-}
-
 .boxes3{
   display: flex;
   background-image: url("enjour/facemask.jpg");
+  background-size: cover;
 }
 
-.boxes3 a {
-  padding:180px;
-}
 
+.boxes1 p:hover, p:active {
+  background-color: black;
+  color:white;
+  font-family: 'Permanent Marker', cursive;
+}
+.boxes2 p:hover, p:active {
+  background-color: black;
+  color:white;
+}
+.boxes3 p:hover, p:active {
+  background-color: black;
+  color:white;
+}
+.boxes1 p {
+  padding: 8px;
+  background: white;
+  color:black;
+  font-family: 'Permanent Marker', cursive;
+}
+.boxes2 p {
+  padding: 8px;
+  background: white;
+  color:black;
+  font-family: 'Permanent Marker', cursive;
+}
 .boxes3 p {
-  border: 1px solid blue;
-  padding: 20px;
+  padding: 8px;
+  background: white;
+  color:black;
+  font-family: 'Permanent Marker', cursive;
 }
 
+.boxes1 a {
+  padding: 30px;
+}
+.boxes2 a {
+  padding:145px;
+}
+.boxes3 a {
+  padding:145px;
+}
 
 /* bathbomb */
 .container{
