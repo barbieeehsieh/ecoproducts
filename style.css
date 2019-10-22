@@ -1,5 +1,5 @@
 .index {
-  background-color: black;
+  background-color: ;
 }
 
 .menu {
@@ -10,6 +10,7 @@
   justify-content: center;
   background-color: black;
   font-size:120%;
+  color:black
 }
 .santa {
   width: 90px;
@@ -198,7 +199,7 @@ div#slider figure {
   align-items: center;
 }
 .clickboard{
-  padding-top: 20px;
+  padding-top: 150px;
   display:flex;
   width:100%;
 
@@ -215,19 +216,22 @@ opacity:0.8;
 /*clickboard items*/
 .boxes1{
   display: flex;
-  background-image: url("enjour/circle1.png");
+  background-image: url("enjour/body1.jpg");
   background-size: cover;
+  background-position: center bottom;
 }
 
 .boxes2{
   display: flex;
-  background-image: url("enjour/bodylotion.jpg");
+  background-image: url("enjour/lotion1.jpg");
   background-size: cover;
+  background-position: center;
 }
 .boxes3{
   display: flex;
-  background-image: url("enjour/facemask.jpg");
+  background-image: url("enjour/face1.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 
@@ -235,6 +239,7 @@ opacity:0.8;
   background-color: black;
   color:white;
   font-family: 'Permanent Marker', cursive;
+
 }
 .boxes2 p:hover, p:active {
   background-color: black;
@@ -264,13 +269,13 @@ opacity:0.8;
 }
 
 .boxes1 a {
-  padding: 30px;
+  padding: 170px;
 }
 .boxes2 a {
-  padding:145px;
+  padding:170px;
 }
 .boxes3 a {
-  padding:145px;
+  padding:170px;
 }
 
 /* bathbomb */
