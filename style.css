@@ -199,9 +199,10 @@ div#slider figure {
   align-items: center;
 }
 .clickboard{
-  padding-top: 150px;
+  padding: 10px;
   display:flex;
   width:100%;
+  height:300px;
 
   flex-direction: row;
   position: absolute;
@@ -216,22 +217,25 @@ opacity:0.8;
 /*clickboard items*/
 .boxes1{
   display: flex;
-  background-image: url("enjour/body1.jpg");
+  background-image: url("enjour/body1.png");
   background-size: cover;
-  background-position: center bottom;
+  background-position: center;
+  padding-left: 60px;
 }
 
 .boxes2{
   display: flex;
-  background-image: url("enjour/lotion1.jpg");
+  background-image: url("enjour/lotion1.png");
   background-size: cover;
   background-position: center;
+  padding-left: 60px;
 }
 .boxes3{
   display: flex;
-  background-image: url("enjour/face1.jpg");
+  background-image: url("enjour/fask1.png");
   background-size: cover;
   background-position: center;
+  padding-left: 60px;
 }
 
 
@@ -269,13 +273,14 @@ opacity:0.8;
 }
 
 .boxes1 a {
-  padding: 170px;
+  padding: 120px;
 }
 .boxes2 a {
-  padding:170px;
+  padding:120px;
 }
 .boxes3 a {
-  padding:170px;
+  padding:120px;
+  text-align: center;
 }
 
 /* bathbomb */
