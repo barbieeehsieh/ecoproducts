@@ -1,5 +1,5 @@
 .index {
-  background-color: ;
+  background-color:black;
 }
 
 .menu {
@@ -170,7 +170,7 @@ a{
 70% { left: -200%; }
 75% { left: -300%; }
 95% { left: -300%; }
-100% { left: -400%; }
+100% { right: -400%; }
 }
 
 body { margin: 0; }
@@ -191,6 +191,7 @@ div#slider figure {
   width: 100%;
   height: 700px;
 }
+
 /*clickboard*/
 .photo{
   width:400px;
@@ -199,16 +200,14 @@ div#slider figure {
   align-items: center;
 }
 .clickboard{
-  padding: 10px;
   display:flex;
   width:100%;
   height:300px;
-
-  flex-direction: row;
+  justify-content: center;
+  flex-direction:row;
   position: absolute;
   display: flex;
   align-items: center;
-  border: 1px solid red;
 }
 .clickboard img:hover{
 opacity:0.8;
@@ -217,25 +216,25 @@ opacity:0.8;
 /*clickboard items*/
 .boxes1{
   display: flex;
-  background-image: url("enjour/body1.png");
-  background-size: cover;
+  background-image: url("enjour/body2.png");
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
   background-position: center;
-  padding-left: 60px;
 }
 
 .boxes2{
   display: flex;
-  background-image: url("enjour/lotion1.png");
-  background-size: cover;
+  background-image: url("enjour/heart.png");
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
   background-position: center;
-  padding-left: 60px;
 }
 .boxes3{
   display: flex;
-  background-image: url("enjour/fask1.png");
-  background-size: cover;
+  background-image: url("enjour/face1.png");
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
   background-position: center;
-  padding-left: 60px;
 }
 
 
