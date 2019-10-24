@@ -188,8 +188,8 @@ div#slider figure {
 /* End of Slideshow */
 
 .intro {
-  width: 850px;
-  height: 600px;
+  width: 100%;
+  height: 700px;
 }
 /*clickboard*/
 .photo{
