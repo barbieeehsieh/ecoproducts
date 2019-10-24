@@ -1,5 +1,5 @@
 .index {
-  background-color: ;
+  background-color:black;
 }
 
 .menu {
@@ -170,7 +170,7 @@ a{
 70% { left: -200%; }
 75% { left: -300%; }
 95% { left: -300%; }
-100% { left: -400%; }
+100% { right: -400%; }
 }
 
 body { margin: 0; }
@@ -191,6 +191,7 @@ div#slider figure {
   width: 100%;
   height: 700px;
 }
+
 /*clickboard*/
 .photo{
   width:400px;
@@ -199,16 +200,14 @@ div#slider figure {
   align-items: center;
 }
 .clickboard{
-  padding: 10px;
   display:flex;
   width:100%;
   height:300px;
-
-  flex-direction: row;
+  justify-content: center;
+  flex-direction:row;
   position: absolute;
   display: flex;
   align-items: center;
-  border: 1px solid red;
 }
 .clickboard img:hover{
 opacity:0.8;
@@ -217,25 +216,25 @@ opacity:0.8;
 /*clickboard items*/
 .boxes1{
   display: flex;
-  background-image: url("enjour/body1.png");
-  background-size: cover;
+  background-image: url("enjour/body2.png");
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
   background-position: center;
-  padding-left: 60px;
 }
 
 .boxes2{
   display: flex;
-  background-image: url("enjour/lotion1.png");
-  background-size: cover;
+  background-image: url("enjour/heart.png");
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
   background-position: center;
-  padding-left: 60px;
 }
 .boxes3{
   display: flex;
-  background-image: url("enjour/fask1.png");
-  background-size: cover;
+  background-image: url("enjour/face1.png");
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
   background-position: center;
-  padding-left: 60px;
 }
 
 
@@ -306,4 +305,98 @@ opacity:0.8;
 
 .container2{
   margin-left: 50px;
+}
+
+
+/*option*/
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Source+Sans+Pro:200,300,400,600');
+
+.optionbar body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #E0E0E0;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  color: #151E3F;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  > * {
+    margin: 5px;
+  }
+}
+
+.media {
+  width: 600px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+      max-width: 100%;
+      height: auto;
+    }
+}
+
+.layer {
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 90%;
+  background: #FFF;
+  color: #151E3F;
+  transition: all 0.9s ease;
+  p {
+    transition: all 0.9s ease;
+    transform: scale(0.1)
+  }
+}
+
+.layer p {
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing:1px;
+}
+
+.media:hover .layer {
+  opacity: 0.8;
+  width: 90%;
+  transition: all 0.5s ease;
+  p {
+    transform: scale(1);
+    transition: all 0.9s ease;
+  }
+}
+
+@media (max-width: 800px){
+  body {
+    transform: scale(0.6);
+  }
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+    display: block;
+    > * {
+      margin: 10px;
+    }
+  }
 }
