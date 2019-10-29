@@ -403,3 +403,24 @@ h1 {
     }
   }
 }
+
+/*description*/
+.description{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.holder1{
+  display: flex;
+}
+.holder2{
+  display: flex;
+}
+.d1{
+  display: flex;
+  flex-direction: column;
+}
+.d2{
+  display: flex;
+  flex-direction: column;
+}
