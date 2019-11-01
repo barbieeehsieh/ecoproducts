@@ -18,7 +18,7 @@
 }
 
 .bodylotion{
-  background-color:#212121;
+  background-color:white;
 }
 .list {
   border: 1px;
@@ -320,6 +320,9 @@ opacity:0.8;
   margin-left: 50px;
 }
 
+.bathbomb{
+  background-color: #212121;
+}
 
 /*option*/
 @import url('https://fonts.googleapis.com/css?family=Inconsolata|Source+Sans+Pro:200,300,400,600');
@@ -419,34 +422,23 @@ h1 {
 
 .logan-container{
   display: flex;
-  padding-bottom: 40px;
 }
 
 .l1{
   display: flex;
-  flex-grow: 3;
+  flex-grow: 1;
   flex-direction: column;
   justify-content: center;
-  padding-left:10px;
-}
-.l1 img{
-  height:220px;
-  width:500px;
 }
 .l2{
   display: flex;
-  flex-grow: 1;
+  flex-grow: 2;
   flex-direction: column;
   justify-content: center;
   padding-left:20px;
 }
-.l2 h1{
-  font-size: 330%;
-  color: white;
-}
-.l2 p{
-  color: white;
-  font-family: 'Source Sans Pro', sans-serif;
+.logan h1{
+  font-size: 150%;
 }
 
 .facemask {
@@ -465,15 +457,16 @@ h1 {
     display: flex;
     justify-content:center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 60vh;
     font-family: sans-serif;
   }
   .box{
     width: 1200px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-gap: 50px;
+    grid-gap: 15px;
     margin: 0 auto;
+
   }
   .card{
     position: relative;
@@ -551,7 +544,7 @@ h1 {
 
   .card .details h2 span{
   font-weight: 500;
-  font-size: 12px;
+  font-size: 16px;
   color: #f38695;
   display: block;
   margin-top: 5px;
