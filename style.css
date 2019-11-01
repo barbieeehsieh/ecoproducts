@@ -440,6 +440,12 @@ h1 {
 .facemask {
   background-color: #212121;
 }
+.all {
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  padding-left: 50px;
+  font-size: 250%;
+}
 /*facemask pics*/
 .cool{
     margin: 0;
