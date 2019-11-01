@@ -438,7 +438,7 @@ h1 {
   flex-grow: 1;
   flex-direction: column;
   justify-content: center;
-  padding-left: 20px;
+  padding-left:20px;
 }
 .l2 h1{
   font-size: 330%;
