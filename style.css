@@ -417,23 +417,12 @@ h1 {
   }
 }
 
-/*description*/
-.description{
-  display:flex;
-  flex-wrap: wrap;
-}
-
-.holder1{
+.logan{
   display: flex;
 }
-.holder2{
+.l2{
   display: flex;
 }
-.d1{
-  display: flex;
-  flex-direction: column;
-}
-.d2{
-  display: flex;
-  flex-direction: column;
+.logan h1{
+  font-size: 150%;
 }
