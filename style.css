@@ -453,16 +453,15 @@ h1 {
     display: flex;
     justify-content:center;
     align-items: center;
-    min-height: 60vh;
+    min-height: 100vh;
     font-family: sans-serif;
   }
   .box{
     width: 1200px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-gap: 15px;
+    grid-gap: 50px;
     margin: 0 auto;
-
   }
   .card{
     position: relative;
@@ -540,7 +539,7 @@ h1 {
 
   .card .details h2 span{
   font-weight: 500;
-  font-size: 16px;
+  font-size: 12px;
   color: #f38695;
   display: block;
   margin-top: 5px;
