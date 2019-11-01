@@ -427,6 +427,9 @@ h1 {
   font-size: 150%;
 }
 
+.facemask {
+  background-color: #212121;
+}
 /*facemask pics*/
 .cool{
     margin: 0;
