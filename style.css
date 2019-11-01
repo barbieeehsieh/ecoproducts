@@ -18,7 +18,7 @@
 }
 
 .bodylotion{
-  background-color:white;
+  background-color:#212121;
 }
 .list {
   border: 1px;
@@ -419,22 +419,34 @@ h1 {
 
 .logan-container{
   display: flex;
+  padding-bottom: 40px;
 }
 
 .l1{
   display: flex;
-  flex-grow: 1;
+  flex-grow: 3;
   flex-direction: column;
   justify-content: center;
+  padding-left:10px;
+}
+.l1 img{
+  height:220px;
+  width:500px;
 }
 .l2{
   display: flex;
-  flex-grow: 2;
+  flex-grow: 1;
   flex-direction: column;
   justify-content: center;
+  padding-left: 20px;
 }
-.logan h1{
-  font-size: 150%;
+.l2 h1{
+  font-size: 330%;
+  color: white;
+}
+.l2 p{
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .facemask {
