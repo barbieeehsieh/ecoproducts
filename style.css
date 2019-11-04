@@ -423,6 +423,7 @@ h1 {
 .logan-container{
   display: flex;
   padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .l1{
