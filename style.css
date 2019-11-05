@@ -798,6 +798,7 @@ h1 {
 
 .contact{
   background-color: #212121;
+  font-family:'Permanent Marker', cursive;
 }
 
 
@@ -811,4 +812,5 @@ h1 {
    text-align: left;
    height:30px;
    font-size: 12px;
+   font-family: none;
 }
