@@ -586,14 +586,14 @@ h1 {
 
 /*back button*/
 .back button {
-  background-color: #9cc4ff;
+  background-color: #404347;
   border: none;
   color: white;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 12px;
+  font-size: 17px;
   font-family: 'Permanent Marker', cursive;
 }
     /*rudolph starts*/
