@@ -813,12 +813,10 @@ h1 {
   font-size: 13px;
 }
 
-/*Contact page*/
-
-
+/*Contact page ends*/
 
 .footer {
-   /* position: fixed; */
+   position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
