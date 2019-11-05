@@ -797,6 +797,14 @@ h1 {
 .product-image:hover img {transform: scale(1.2, 1.2);}
 /*rudolph ends*/
 
+/*testimony style*/
+.test {
+  color:white;
+  font-size: 200%;
+  font-family: 'Permanent Marker', cursive;
+  padding-left: 10px;
+}
+
 /* Contact Page*/
 .contact{
   background-color: #212121;
