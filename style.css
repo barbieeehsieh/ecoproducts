@@ -2,6 +2,7 @@
   background-color:black;
 }
 
+/*navigation bar starts*/
 .menu {
   border: 0.5px;
   display: flex;
@@ -33,8 +34,13 @@
 
 a{
   text-decoration: none;
+  /* color:blue; */
 }
-
+a:visited{
+  text-decoration: none;
+  background-color: transparent;
+  /* color:blue; */
+}
 .snowflake {
   color: #fff;
   font-size: 2.5em;
@@ -44,6 +50,19 @@ a{
 .menu{
   font-family: 'Permanent Marker', cursive;
 }
+/*navigation bar ends*/
+
+/*front page slogan starts*/
+.notes {
+  position: absolute;
+  top: 1100px;
+}
+.fight {
+    width: 100%;
+    height:200px;
+}
+
+/*front page logan ends*/
 
 /* Snowflake animation */
 @-webkit-keyframes snowflakes-fall {
@@ -286,14 +305,9 @@ opacity:0.8;
 }
 /*clickboard end*/
 
-.notes {
-  position: absolute;
-  top: 1100px;
-}
-.fight {
-    width: 100%;
-    height:200px;
-}
+
+
+
 
 /* bathbomb */
 .container{
@@ -420,9 +434,11 @@ h1 {
   }
 }
 
-.logan-container{
+/*slogan*/
+.slogan-container{
   display: flex;
   padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .l1{
@@ -461,6 +477,13 @@ h1 {
   padding-left: 50px;
   font-size: 250%;
 }
+
+
+/*end slogan*/
+
+
+
+
 /*facemask pics*/
 .cool{
     margin: 0;
@@ -561,6 +584,18 @@ h1 {
    }
    /*facemask pics end*/
 
+/*back button*/
+.back button {
+  background-color: #9cc4ff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-family: 'Permanent Marker', cursive;
+}
     /*rudolph starts*/
     /* fonts  */
 @import url('https://fonts.googleapis.com/css?family=Abel|Aguafina+Script|Artifika|Athiti|Condiment|Dosis|Droid+Serif|Farsan|Gurajada|Josefin+Sans|Lato|Lora|Merriweather|Noto+Serif|Open+Sans+Condensed:300|Playfair+Display|Rasa|Sahitya|Share+Tech|Text+Me+One|Titillium+Web');
@@ -763,4 +798,29 @@ h1 {
 
 .contact{
   background-color: #212121;
+  font-family:'Permanent Marker', cursive;
+}
+
+.submit input {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.footer {
+   /* position: fixed; */
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #212121;
+   color: white;
+   text-align: left;
+   height:30px;
+   font-size: 12px;
+   font-family: none;
 }
