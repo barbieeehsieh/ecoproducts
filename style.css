@@ -801,6 +801,16 @@ h1 {
   font-family:'Permanent Marker', cursive;
 }
 
+.submit input {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
 
 .footer {
    /* position: fixed; */
