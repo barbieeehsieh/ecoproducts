@@ -586,14 +586,14 @@ h1 {
 
 /*back button*/
 .back button {
-  background-color: #404347;
+  background-color: #9cc4ff;
   border: none;
   color: white;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 17px;
+  font-size: 12px;
   font-family: 'Permanent Marker', cursive;
 }
     /*rudolph starts*/
@@ -796,6 +796,7 @@ h1 {
 .product-image:hover img {transform: scale(1.2, 1.2);}
 /*rudolph ends*/
 
+/* Contact Page*/
 .contact{
   background-color: #212121;
   font-family:'Permanent Marker', cursive;
@@ -811,6 +812,10 @@ h1 {
   display: inline-block;
   font-size: 13px;
 }
+
+/*Contact page*/
+
+
 
 .footer {
    /* position: fixed; */
