@@ -423,6 +423,7 @@ h1 {
   }
 }
 
+/*logan*/
 .logan-container{
   display: flex;
   padding-bottom: 40px;
@@ -465,6 +466,12 @@ h1 {
   padding-left: 50px;
   font-size: 250%;
 }
+
+/*end logan*/
+
+
+
+
 /*facemask pics*/
 .cool{
     margin: 0;
