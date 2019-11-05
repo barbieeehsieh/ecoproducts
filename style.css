@@ -2,6 +2,7 @@
   background-color:black;
 }
 
+/*navigation bar starts*/
 .menu {
   border: 0.5px;
   display: flex;
@@ -33,10 +34,12 @@
 
 a{
   text-decoration: none;
+  /* color:blue; */
 }
 a:visited{
   text-decoration: none;
   background-color: transparent;
+  /* color:blue; */
 }
 .snowflake {
   color: #fff;
@@ -47,6 +50,19 @@ a:visited{
 .menu{
   font-family: 'Permanent Marker', cursive;
 }
+/*navigation bar ends*/
+
+/*front page slogan starts*/
+.notes {
+  position: absolute;
+  top: 1100px;
+}
+.fight {
+    width: 100%;
+    height:200px;
+}
+
+/*front page logan ends*/
 
 /* Snowflake animation */
 @-webkit-keyframes snowflakes-fall {
@@ -289,14 +305,9 @@ opacity:0.8;
 }
 /*clickboard end*/
 
-.notes {
-  position: absolute;
-  top: 1100px;
-}
-.fight {
-    width: 100%;
-    height:200px;
-}
+
+
+
 
 /* bathbomb */
 .container{
@@ -423,8 +434,8 @@ h1 {
   }
 }
 
-/*logan*/
-.logan-container{
+/*slogan*/
+.slogan-container{
   display: flex;
   padding-bottom: 40px;
   padding-top: 40px;
@@ -467,7 +478,8 @@ h1 {
   font-size: 250%;
 }
 
-/*end logan*/
+
+/*end slogan*/
 
 
 
